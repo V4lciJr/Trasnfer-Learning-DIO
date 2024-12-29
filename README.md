@@ -26,3 +26,5 @@ O Transfer Learning oferece diversas vantagens no treinamento de modelos de apre
   * Modelos pré-treinados, como o ResNet ou o BERT, embutem anos de pesquisa e refinamento. Isso permite que os desenvolvedores usem esses avanços sem a necessidade de começar do zero.
 
 Em nosso tutorial guiamos você em como aplicar o transfer learning de classificação de imagens e adaptar a sua própria realidade, em nosso exemplo usamos o conjunto da imaginet que possui 1000 classes e fazendo da arquitetura da rede VGG16 para aproveitamos seu treinamento e seus pesos, para classificar um conjunto de imagens de gatos e cachorros, mas você pode adaptar para a sua própria realidade e conjuntos de dados, afinal essa é a real essência do Transfer Learning.
+
+>**OBS:** Ao tentar reproduzir esta implementação, aconselho fortemente utilizar o google colab e colocar para rodar em GPU, a GPU T4 da parte gratuita do colab foi a que teve a melhor performance, caso execute para rodar em CPU que é o padrão, o treinamento do modelo fica muito lento, tendendo a demorar horas.
